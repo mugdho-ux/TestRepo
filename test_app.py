@@ -3,7 +3,8 @@ from selenium.webdriver.common.by import By
 import time
 
 # Chrome driver path (উইন্ডোজে যেটা ইনস্টল করেছ)
-driver_path = "D:\mugdho\jenkins-projects\my-website\tests\chromedriver.exe"
+driver_path = r"D:\mugdho\jenkins-projects\my-website\tests\chromedriver.exe"
+
 
 driver = webdriver.Chrome(executable_path=driver_path)
 
